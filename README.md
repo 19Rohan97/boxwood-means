@@ -103,7 +103,7 @@ if ($conn->connect_error) {
 ### **5. Start the Server**
 Start **Apache** and **MySQL** in XAMPP/WAMP/MAMP and navigate to:
 ```
-http://localhost/my-php-project/
+http://localhost/boxwood-means/
 ```
 
 ---
