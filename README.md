@@ -169,11 +169,3 @@ The project follows a modular approach, making it easy to update or extend.
 
 ## **License**
 This project is licensed under the MIT License.
-
----
-
-## **Contact**
-For support, contact:
-
-📧 Email: your-email@example.com  
-🌐 Website: [yourwebsite.com](https://yourwebsite.com)  
