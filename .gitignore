@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Tailwind output files
+dist/output.css
+dist/
+
+# PHP-specific ignores
+*.log
+vendor/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# XAMPP and other local environment files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Composer dependencies (if using Composer)
+composer.lock
+
+# Ignore Tailwind cache (if applicable)
+.tailwind-cache/
