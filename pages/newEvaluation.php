@@ -1,7 +1,7 @@
 <main class="min-h-vh flex flex-col items-center py-14">
     <section class="max-w-650 mx-auto px-4 pb-[142px]">
         <h2 class="text-4xl text-center font-semibold text-dark">Commercial property values instantly</h2>
-        <form class="px-5">
+        <form class="px-5" method="POST">
             <div class="space-y-12">
                 <div class="pb-8">
 
@@ -59,7 +59,7 @@
             </div>
 
             <div class="flex items-center justify-center gap-x-6">
-                <button type="submit"
+                <button type="submit" name="submit"
                     class="bg-primary px-5 py-3 rounded-xs text-base leading-[21px] tracking-[2px] font-semibold text-white shadow-xs hover:bg-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 uppercase cursor-pointer transition duration-300 ease-in-out">search</button>
             </div>
         </form>
@@ -70,7 +70,7 @@
 
         <div class="flex flex-col gap-3">
             <?php for ($i = 0; $i < 2; $i++) : ?>
-            <?php include 'components/recent-search.php'; ?>
+                <?php include 'components/recent-search.php'; ?>
             <?php endfor; ?>
         </div>
     </section>
