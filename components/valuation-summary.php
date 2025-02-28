@@ -1,4 +1,4 @@
-<div class="card p-6 rounded[4px] border border-[#B0B0B0] hover:bg-white hover:shadow-md transition">
+<div class="card p-6 rounded[4px] border border-[#B0B0B0] bg-white hover:shadow-md transition">
     <div class="grid grid-cols-1 gap-x-4 gap-y-4 lg:grid-cols-7 xl:grid-cols-9">
         <div class="sm:col-span-1"></div>
         <h3 class="sm:col-span-8 text-base font-semibold mb-4 text-[#04303F] underline">140 Brevard Ct, Charlotte, NC

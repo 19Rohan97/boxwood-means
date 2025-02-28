@@ -11,6 +11,7 @@
     <style type="text/tailwindcss">
         @theme {
         --color-primary: #008998;
+        --color-boxwood-dark-teal: #04303F;
         --color-secondary: #62B200;
         --color-accent: #FF8A00;
         --color-dark: #111111;

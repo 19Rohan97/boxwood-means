@@ -17,10 +17,11 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#" class="text-sm/6 font-semibold text-gray-900">New Search</a>
-            <a href="#" class="text-sm/6 font-semibold text-gray-900">Saved Reports</a>
-            <a href="#" class="text-sm/6 font-semibold text-gray-900 flex"><span>R. Winslow</span> <img
-                    class="h-8 w-auto" src="<?php echo ASSETS_PATH; ?>/images/user.svg" alt="username"></a>
+            <a href="#" class="text-sm/6 font-semibold text-gray-900 flex flex-row items-center">New Search</a>
+            <a href="#" class="text-sm/6 font-semibold text-gray-900 flex flex-row items-center">Saved Reports</a>
+            <a href="#" class="text-sm/6 font-semibold text-gray-900 flex flex-row items-center gap-x-5"><span>R.
+                    Winslow</span>
+                <img class="h-8 w-6" src="<?php echo ASSETS_PATH; ?>/images/user.svg" alt="username"></a>
         </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->

@@ -4,7 +4,7 @@
         <div>
             <h3 class="text-2xl font-bold mb-6">Select property to be valued:</h3>
 
-            <div class="card p-6 bg-white shadow-md rounded[4px] border border-[#B0B0B0]">
+            <div class="card p-6 bg-white shadow-md rounded-[4px] border border-[#B0B0B0]">
                 <h3 class="text-base font-semibold mb-4">140 Brevard Ct, Charlotte, NC 28202</h3>
                 <div class="grid grid-cols-1 gap-x-4 gap-y-4 lg:grid-cols-6 xl:grid-cols-8">
                     <div class="sm:col-span-3 text-sm flex flex-col text-[#444444]">
@@ -18,7 +18,7 @@
                         <span class="distance_from_subject">Distance from subject: 2mi</span>
                     </div>
                     <div class="sm:col-span-2 ">
-                        <a href="#"
+                        <a href="index.php?page=valuationSummary"
                             class="rounded-[2px] bg-primary px-6 py-3 text-sm text-white hover:bg-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary uppercase font-semibold tracking-[1px]">select</a>
                     </div>
                 </div>
