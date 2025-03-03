@@ -1,5 +1,6 @@
 <main class="min-h-vh flex flex-col items-center py-14">
-    <section class="w-full max-w-1440 mx-auto px-16 flex flex-row gap-x-[40px] xl:gap-x-[60px]">
+    <section
+        class="w-full max-w-1440 mx-auto px-5 lg:px-8 xl:px-16 flex flex-col lg:flex-row gap-x-[40px] xl:gap-x-[60px]">
 
         <div>
             <h3 class="text-2xl font-bold mb-6">Select property to be valued:</h3>
@@ -19,7 +20,7 @@
                     </div>
                     <div class="sm:col-span-2 ">
                         <a href="index.php?page=valuationSummary"
-                            class="rounded-[2px] bg-primary px-6 py-3 text-sm text-white hover:bg-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary uppercase font-semibold tracking-[1px]">select</a>
+                            class="rounded-[2px] bg-primary px-6 py-3 text-sm text-white hover:bg-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary uppercase font-semibold tracking-[1px] inline-block">select</a>
                     </div>
                 </div>
             </div>

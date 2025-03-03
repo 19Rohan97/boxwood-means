@@ -21,7 +21,7 @@
         </div>
         <div class="sm:col-span-2">
             <a href="#"
-                class="rounded-[2px] bg-primary px-6 py-3 text-sm text-white hover:bg-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary uppercase font-semibold tracking-[1px]">select</a>
+                class="rounded-[2px] bg-primary px-6 py-3 text-sm text-white hover:bg-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary uppercase font-semibold tracking-[1px] inline-block">select</a>
         </div>
     </div>
 </div>

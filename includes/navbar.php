@@ -7,7 +7,8 @@
             </a>
         </div>
         <div class="flex lg:hidden">
-            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+            <button type="button"
+                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 mobile-menu-btn">
                 <span class="sr-only">Open main menu</span>
                 <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                     aria-hidden="true" data-slot="icon">
@@ -25,7 +26,7 @@
         </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
-    <div class="lg:hidden" role="dialog" aria-modal="true">
+    <div class="lg:hidden mobile-menu hidden" role="dialog" aria-modal="true">
         <!-- Background backdrop, show/hide based on slide-over state. -->
         <div class="fixed inset-0 z-10"></div>
         <div
@@ -33,10 +34,10 @@
             <div class="flex items-center justify-between">
                 <a href="#" class="-m-1.5 p-1.5">
                     <span class="sr-only">Your Company</span>
-                    <img class="h-8 w-auto"
-                        src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="">
+                    <img class="h-8 w-auto" src="<?php echo ASSETS_PATH; ?>/images/boxwood-logo.png"
+                        alt="Boxwood Means">
                 </a>
-                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 mobile-menu-close">
                     <span class="sr-only">Close menu</span>
                     <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                         aria-hidden="true" data-slot="icon">
@@ -48,16 +49,19 @@
                 <div class="-my-6 divide-y divide-gray-500/10">
                     <div class="space-y-2 py-6">
                         <a href="#"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Features</a>
+                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">New
+                            Search</a>
                         <a href="#"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Marketplace</a>
-                        <a href="#"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Company</a>
+                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Saved
+                            Reports</a>
                     </div>
                     <div class="py-6">
                         <a href="#"
-                            class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log
-                            in</a>
+                            class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
+                            <span>R. Winslow</span>
+                            <img class="h-6 w-5 inline-block ml-2" src="<?php echo ASSETS_PATH; ?>/images/user.svg"
+                                alt="username">
+                        </a>
                     </div>
                 </div>
             </div>

@@ -17,6 +17,13 @@ $(document).ready(function () {
     $(".mobile-menu").toggleClass("hidden");
   });
 
+  // Close mobile menu with close button
+  $(".mobile-menu-close").click(function () {
+    console.log("Close Menu");
+
+    $(".mobile-menu").toggleClass("hidden");
+  });
+
   // Close mobile menu when clicking outside
   $(document).click(function (event) {
     if (!$(event.target).closest(".mobile-menu, .mobile-menu-btn").length) {
