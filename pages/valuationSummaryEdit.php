@@ -111,7 +111,7 @@
     <section
         class="w-full max-w-1440 mx-auto px-5 lg:px-8 xl:px-16 flex flex-row flex-wrap lg:flex-nowrap gap-x-[26px]">
 
-        <div class="max-w-[590px] mb-3 xl:mb-0">
+        <div class="lg:w-full max-w-[500px] mb-3 xl:mb-0">
             <div class="mb-[32px] flex flex-row gap-x-6 items-center">
                 <a class="text-boxwood-dark-teal uppercase text-sm font-semibold" href="#">Map View</a>
                 <span class="text-black uppercase text-base font-semibold">|</span>
@@ -120,7 +120,7 @@
             <img src="<?php echo ASSETS_PATH; ?>/images/map.png" alt="Confirm Property Map">
         </div>
 
-        <div class="lg:w-full xl:w-auto">
+        <div class="lg:w-full ">
             <div class="flex flex-row flex-wrap gap-2 items-center justify-between mb-6">
                 <h3 class="text-xl lg:text-2xl font-bold ">140 Brevard Ct, Charlotte, NC 28202</h3>
                 <a class="text-primary uppercase text-base font-bold flex flex-row gap-x-2 items-center" href="">
@@ -172,26 +172,13 @@
                         <option value="Distance">Distance</option>
                     </select>
                 </div>
-                <a class="text-primary uppercase text-base font-bold flex flex-row gap-x-2 items-center"
-                    href="index.php?page=valuationSummaryEdit">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_214_9500)">
-                            <path
-                                d="M3 17.25V21H6.75L17.815 9.935L14.065 6.185L3 17.25ZM20.705 7.045C21.095 6.655 21.095 6.02 20.705 5.63L18.37 3.295C17.98 2.905 17.345 2.905 16.955 3.295L15.125 5.125L18.875 8.875L20.705 7.045Z"
-                                fill="#008998" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_214_9500">
-                                <rect width="24" height="24" fill="white" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                    <span>Edit List</span>
-                </a>
+                <a href="index.php?page=valuationSummary"
+                    class="rounded-[2px] bg-primary px-6 py-3 text-sm text-white hover:bg-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary uppercase font-semibold tracking-[1px] inline-block">Save
+                    EDITS</a>
             </div>
-            <div class="flex flex-col gap-2">
+            <div class="flex flex-col gap-6">
                 <?php for ($i = 0; $i < 6; $i++) : ?>
-                <?php include 'components/valuation-summary.php'; ?>
+                <?php include 'components/valuation-summary-edit.php'; ?>
                 <?php endfor; ?>
             </div>
         </div>
